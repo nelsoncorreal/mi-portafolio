@@ -1,0 +1,93 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fffc3a, #2bc6d1); /* Añadido un gradiente suave */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #717467;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+    background-image: url('./imagenes/fondo.jpg!d'); 
+    background-repeat: repeat;
+    
+    
+}
+
+.profile-pic {
+    width: 120px;
+    height: 150px;
+    border-radius: 70%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid gold;
+}
+
+section {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.work-item, .about-me, .contact-info {
+    margin-bottom: 2rem;
+}
+
+.like-btn {
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.like-btn:hover {
+    background-color: #e63900;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #555;
+    font-size: 24px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: gold;
+}
+
+.about-me p {
+    margin: 1rem 0;
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+}
+
+.about-me h2, .contact-info h2 {
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 1rem;
+}
+
+.about-me strong {
+    color: #333;
+    font-size: 17px;
+    display: block;
+    margin-top: 1rem;
+}
+
+
