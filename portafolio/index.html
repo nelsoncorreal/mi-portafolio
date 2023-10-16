@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,12 @@
     <title>Mi Portafolio</title>
     <link rel="icon" href="imagenes/icons8-programa-32.png">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <div class="header-social-icons">
+    <a href="https://twitter.com/correal_nelson?s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/in/nelson-fernando-correal-lopez-22b7b4109/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/nelsoncorreal" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
     
 </head>
 
@@ -59,6 +65,71 @@
         <p><strong>Misión:</strong> Proporcionar soluciones tecnológicas innovadoras y personalizadas a los desafíos del mundo digital. Mediante una combinación de habilidades técnicas adquiridas en la formación académica y una pasión innata por la programación, busco ofrecer resultados que superen las expectativas y agreguen valor tangible a cada proyecto.</p>
     </section>
 
+    <section class="calculator">
+        <h3>Trabajos Realizados</h3>
+        <div class="work-item">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto.</p>
+
+            <p>Proyecto.</p>
+        <h2>Calculadora Sencilla</h2>
+        <div class="calc-container">
+            <input type="text" id="result" readonly>
+            <div class="buttons">
+                <button onclick="clearScreen()">C</button>
+                <button onclick="display('1')">1</button>
+                <button onclick="display('2')">2</button>
+                <button onclick="display('+')">+</button>
+                <button onclick="display('3')">3</button>
+                <button onclick="display('4')">4</button>
+                <button onclick="display('5')">5</button>
+                <button onclick="display('-')">-</button>
+                <button onclick="display('6')">6</button>
+                <button onclick="display('7')">7</button>
+                <button onclick="display('8')">8</button>
+                <button onclick="display('*')">*</button>
+                <button onclick="display('9')">9</button>
+                <button onclick="display('0')">0</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="display('/')">/</button>
+            </div>
+        </div>
+
+        <section class="calculator-likes">
+            <button  class="like-btn" id="likeButtonCalculator" onclick="addLike('calculator')">Me gusta</button>
+            <p><span id="likeCountCalculator">0</span> personas les gusta la calculadora</p>
+        </section>
+        
+    </section>
+
+    <section class="clock-section">
+        <h3>                </h3>
+        <div class="work-item">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto.</p>
+
+            <p>Proyecto.</p>
+
+            <!-- Reloj Digital -->
+            <div class="digital-clock">
+             <span id="digital-time">00:00:00</span>
+    </div>
+
+    <!-- Reloj Análogo -->
+    <div class="analog-clock">
+        <div class="hand hour-hand" id="hour-hand"></div>
+        <div class="hand minute-hand" id="minute-hand"></div>
+        <div class="hand second-hand" id="second-hand"></div>
+    </div>
+
+        <section class="clock-likes">
+            <center> <button class="like-btn" onclick="addLike('clock')">Like</button></center>
+            <p><span id="likeCountClock">0</span> personas les gusta el reloj</p> 
+        </section>
+
+    </section>
+
+
 
 
     <section class="contact-info">
@@ -68,9 +139,10 @@
         <div class="social-icons">
             <!-- <a href="[Link de tu Facebook]" target="_blank"><i class="fab fa-facebook-f"></i></a> -->
             <a href="https://twitter.com/correal_nelson?s=09" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="www.linkedin.com/in/nelson-fernando-correal-lopez-22b7b4109" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/nelson-fernando-correal-lopez-22b7b4109/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/nelsoncorreal" target="_blank"><i class="fab fa-github"></i></a>
             
+
         </div>
     </section>
 
@@ -79,4 +151,5 @@
 </body>
 
 </html>
+
 
